@@ -2,10 +2,10 @@ public class OperadoresLogicos {
     
     public static void main(String[] args) {
         
-        boolean valor1 = 1 > 2 && true;     // "and" ambos tienen que ser V para ser V o F para ser F
+        boolean valor1 = 1 > 2;     // "and" ambos tienen que ser V para ser V o F para ser F
         System.out.println(valor1);
 
-        boolean valor2 = 5 > 2 || false;   // "or"
+        boolean valor2 = 5 > 2;   // "or"
         System.out.println(valor2);
 
         System.out.println(!true);         // "not"
